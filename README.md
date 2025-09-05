@@ -16,3 +16,4 @@ git clone https://github.com/abdullah7834/temporal-workflow-order-management.git
 cd temporal-workflow-order-management
 
 #  for env file TEMPORAL_ADDRESS=127.0.0.1:7233 is this 
+# for the  temporal flow visit localhost:8080
