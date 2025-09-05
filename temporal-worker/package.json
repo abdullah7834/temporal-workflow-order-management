@@ -1,0 +1,27 @@
+{
+  "name": "temporal-worker",
+  "version": "1.0.0",
+  "private": true,
+  
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/worker.js",
+    "dev": "ts-node-dev --respawn src/worker.ts",
+    "client": "ts-node src/client.ts"
+  },
+  "dependencies": {
+    "@temporalio/activity": "^1.9.3",
+    "@temporalio/client": "^1.9.3",
+    "@temporalio/common": "^1.9.3",
+    "@temporalio/worker": "^1.9.3",
+    "date-fns": "^3.6.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
+
+

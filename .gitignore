@@ -1,0 +1,41 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+**/dist/
+**/build/
+procee-manage/.next/
+procee-manage/out/
+
+# Next.js / Vercel
+procee-manage/.vercel/
+procee-manage/next-env.d.ts
+
+# Testing
+coverage/
+**/coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Env files (do not commit secrets)
+.env
+.env.*
+**/.env.local
+
+# Misc
+*.tsbuildinfo
+*.swp
+*.swm
